@@ -1,17 +1,23 @@
 Body{
+    width:80%;
     text-align: center;
+    background-image: url("../pexels-hngstrm-1939485.jpg");
+    text-shadow: 5px 2px #daa520;
 }
 
 header,nav{
     width:100%;
     height: 25px;
     border: 2px solid;
+    box-shadow: 2px 2px #09eb0c;
     margin-bottom: 5px;
+    
 }
-footer{
+footer{ 
     width: 100%;
     height: 25px;
     border: 2px solid;
+     box-shadow: 2px 2px #09eb0c;
     margin-top: 10px;
 }
 aside{
@@ -24,12 +30,13 @@ aside{
 section{
     height: 45%;
     border: 2px solid;
-   
+     box-shadow: 2px 2px #09eb0c;
     margin-bottom: 5px;
 }
 article{
     height: 45%;
     border: 2px solid;
+     box-shadow: 2px 2px #09eb0c;
 }
 .container{
     width: 100%;
@@ -53,5 +60,5 @@ width:34%;
 height:100%;
 float: right;
 border: 2px solid;
-
+ box-shadow: 2px 2px #09eb0c;
 }
