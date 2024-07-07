@@ -1,0 +1,59 @@
+:root {
+--primary-color: #ffebcd;
+--secondary-color: #2ecc71;
+
+/* Font Sizes */
+--font-size-small: 0.75rem;
+/* 12px */
+--font-size-md: 1rem;
+/* 16px */
+--font-size-lg: 1.5rem;
+/* 24px */
+
+/* Margins */
+--margin-small: 0.3125rem;
+/* 5px */
+--margin-md: 0.625rem;
+/* 10px */
+--margin-lg: 1.25rem;
+/* 20px */
+
+/* Font color */
+--font-color:#2ecc71;
+
+
+
+
+
+/* List color*/
+--ul-li-color:green;
+/* List icon*/
+--ul-list-style:square;
+
+ }
+ 
+
+body {
+font-family: Arial, sans-serif;
+font-size: var(--font-size-md);
+/* Using root variable for font size */
+color: var(--primary-color);
+/* Using root variable for color */
+margin: var(--margin-md);
+/* Using root variable for margin */
+padding: var(--padding-md);
+/* Using root variable for padding */
+}
+                
+
+                
+h1 {
+font-size: var(--font-size-lg);
+/* Using root variable for Large font size */
+color: var(--ul-li-color);
+}
+                
+li{
+    color: var(--ul-li-color);
+    list-style-type:var(--ul-list-style);
+}
