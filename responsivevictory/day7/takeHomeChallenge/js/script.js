@@ -10,12 +10,11 @@ console.log(message1);
 
 let birthYear = 1992;
 
-let year1 = 2030;
+let year = 2030;
 
-let year2 = 2047;
+let age1 = year - birthYear;
+let age2 = age1 - 1;
 
-let message2 = `In the year 2030 I will be ${
-  year1 - birthYear
-} and in 2047 I will be ${year2 - birthYear}`;
+let message2 = `In the year 2030 I will be ${age1} or ${age2} in the year ${year}`;
 
 console.log(message2);
