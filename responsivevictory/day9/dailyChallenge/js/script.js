@@ -68,23 +68,20 @@ let codedletter2 = (str) =>
     : "DD";
 console.log(codedletter2(characters));
 
-
 // Challenge Four
 // In this challenge you will be writing code to create functions capable of different arithmetic operations
 // Write an add function that returns the result of num1 plus num2
 // Write a subtract function that returns the result of num1 minus num2
 // Write a multiply function that returns the result of num1 times num2
 // Write a divide function that returns the result of num1 divided num2
-let add = (num1, num2) => num1+num2;
+let add = (num1, num2) => num1 + num2;
 
-let subtract (num1, num2) => num1-num2;
-let multiply (num1, num2) => num1*num2;
-let divide (num1, num2) => num1/num2;
+let subtract = (num1, num2) => num1 - num2;
+let multiply = (num1, num2) => num1 * num2;
+let divide = (num1, num2) => num1 / num2;
 
-console.log(add(3,5));
-console.log(subtract(3,5));
+console.log(add(3, 5));
+console.log(subtract(3, 5));
 
-console.log(multiply(3,3));
-console.log(divide(6,2));
-
-
+console.log(multiply(3, 3));
+console.log(divide(6, 2));
